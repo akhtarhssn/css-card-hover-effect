@@ -15,14 +15,14 @@
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --h2-font-size: 1.25rem;
-  --small-font-size: .813rem;
+  --small-font-size: 0.813rem;
 }
 
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1120px) {
   :root {
     --h2-font-size: 1.5rem;
-    --small-font-size: .875rem;
+    --small-font-size: 0.875rem;
   }
 }
 
@@ -72,7 +72,7 @@ img {
   width: 280px;
   background-color: var(--container-color);
   padding: 1.5rem 2rem;
-  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
   border-radius: 1rem;
   position: absolute;
   bottom: -9rem;
@@ -86,14 +86,14 @@ img {
 .card__description {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 .card__title {
   font-size: var(--h2-font-size);
   font-weight: 500;
   color: var(--title-color);
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .card__button {
@@ -111,7 +111,7 @@ img {
 .card__article:hover .card__data {
   animation: show-data 1s forwards;
   opacity: 1;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .card__article:hover {
@@ -150,7 +150,7 @@ img {
     transform: translateY(-10rem);
   }
   100% {
-    transform: translateY(.5rem);
+    transform: translateY(0.5rem);
   }
 }
 
